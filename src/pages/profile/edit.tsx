@@ -1,0 +1,1 @@
+export default function EditProfile() { return <h1>Halaman Edit Profile</h1> }
