@@ -25,9 +25,25 @@
 }
 
 .navbar_user {
+  display: flex;
+  align-items: center;
   font-size: 16px;
   font-weight: 500;
+  gap: 12px;
   opacity: 0.9;
+}
+
+.navbar_user_image {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover; 
+  border: 2px solid #3b82f6; 
+  transition: all 0.3s ease;
+}
+
+.navbar_user_image:hover {
+  transform: scale(1.1);
 }
 
 .navbar_button {
