@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Navbar Component should render navbar correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="navbar"
+  >
+    <div
+      class="navbar_brand"
+      id="title"
+    />
+    <nav
+      class="navbar_nav"
+      style="display: flex; gap: 1rem;"
+    >
+      <a
+        class="navbar_nav_item"
+        href="/"
+      >
+        Home
+      </a>
+      <a
+        class="navbar_nav_item"
+        href="/produk"
+      >
+        Produk
+      </a>
+    </nav>
+    <div
+      class="navbar_right"
+    >
+      <button
+        class="navbar_button_primary"
+      >
+        Sign In
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
